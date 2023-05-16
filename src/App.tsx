@@ -2,7 +2,7 @@ import { ReactElement } from 'react'
 import {
   Header,
   Banner,
-  Hero,
+  ActionButton,
   FeaturesBlocks,
   Testimonials,
   Newsletter
@@ -14,7 +14,7 @@ function App(): ReactElement {
     >
       <Header />
       <main className="grow">
-        <Hero />
+        <ActionButton />
         {/* <Features /> */}
         <FeaturesBlocks />
         <Testimonials />

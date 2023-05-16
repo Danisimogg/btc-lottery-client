@@ -1,6 +1,7 @@
 export { default as Footer } from './Footer'
 export { default as Hero } from './Hero'
 export { default as Header } from './Header'
+export { default as ActionButton } from './Button/ActionButton'
 export { default as MobileMenu } from './MobileMenu'
 export { default as Banner } from './Banner'
 export { default as FeaturesBlocks } from './FeaturesBlocks'
