@@ -10,8 +10,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.14",
+    "@types/react-transition-group": "^4.4.5",
+    "framer-motion": "^10.12.12",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0",
+    "react-transition-group": "^4.4.5",
+    "sass": "^1.62.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.3",
