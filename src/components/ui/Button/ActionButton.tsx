@@ -1,8 +1,16 @@
 import { motion } from 'framer-motion'
-
+import MagneticButton from './MagneticButton'
 const ActionButton = () => {
   return (
     <div className="flex flex-col justify-center items-center h-screen bg-blue-500 text-white relative">
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-center px-4">
+        Welcome to CryptoLotto!
+      </h1>
+      <p className="text-xl md:text-2xl mb-8 text-center px-4">
+        Enter the future of online lotteries, powered by blockchain technology.
+        Stand a chance to win big in crypto today!
+      </p>
+      <MagneticButton />
       <div
         className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1"
         aria-hidden="true"
@@ -32,19 +40,6 @@ const ActionButton = () => {
           </g>
         </svg>
       </div>
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-center px-4">
-        Welcome to Our Website!
-      </h1>
-      <p className="text-xl md:text-2xl mb-8 text-center px-4">
-        We provide the best services for you.
-      </p>
-      <motion.button
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
-        className="px-8 py-3 bg-white text-blue-500 font-bold rounded"
-      >
-        Call to Action
-      </motion.button>
     </div>
   )
 }
